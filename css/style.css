@@ -1,0 +1,38 @@
+.container {
+  background: #ffffff;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  overflow-x: hidden;
+  padding-left: 280px;
+  width: 100%;
+}
+
+.sidebar {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 280px;
+  background: #ff0000;
+}
+
+.content{
+	padding: 10px;
+}
+
+.CodeMirror {
+	height: auto;
+}
+
+.object {
+	padding: 20px;
+}
+
+.row {
+	max-width: 76em !important;
+}

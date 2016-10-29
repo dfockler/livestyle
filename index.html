@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
+	<head>
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Live Styleguide</title>
+
+		<link rel="stylesheet" href="vendor/codemirror/lib/codemirror.css">
+		<link rel="stylesheet" href="vendor/codemirror/theme/blackboard.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/normalize.css">
+  		<link rel="stylesheet" href="css/foundation.css">
+
+		<script src="vendor/codemirror/lib/codemirror.js" ></script>
+		<script src="vendor/codemirror/mode/sass/sass.js"></script>
+		<script src="vendor/codemirror/mode/xml/xml.js"></script>
+		<script src="vendor/codemirror/mode/htmlmixed/htmlmixed.js"></script>
+		<script src="vendor/codemirror/keymap/sublime.js"></script>
+		<script src="js/emmet.min.js"></script>
+		<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/sass.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="sidebar">
+				Hey There
+			</div>
+			<div class="main">
+				<div class="objects">
+					<div class="object" id="global">
+						<style type="text/css" class="content-style"></style>
+						<div class="row">
+							<div class="object-title small-2 columns">Global Styles</div>
+						</div>
+						<div class="row">
+							<div class="content large-12 columns"></div>
+						</div>
+						<div class="row">
+							<div class="editor large-12 columns" id="cssEditor"></div>
+						</div>
+					</div>
+					<div class="object" id="headings">
+						<style type="text/css" class="content-style"></style>
+						<div class="row">
+							<div class="object-title small-2 columns">Headings</div>
+						</div>
+						<div class="row">
+							<div class="content large-12 columns"></div>
+						</div>
+						<div class="row">
+							<div class="editor large-6 columns" id="htmlEditor"></div>
+							<div class="editor large-6 columns" id="cssEditor"></div>
+						</div>
+					</div>
+					<div class="object" id="typography">
+						<style type="text/css" class="content-style"></style>
+						<div class="row">
+							<div class="object-title small-2 columns">Typography</div>
+						</div>
+						<div class="row">
+							<div class="content large-12 columns"></div>
+						</div>
+						<div class="row">
+							<div class="editor large-6 columns" id="htmlEditor"></div>
+							<div class="editor large-6 columns" id="cssEditor"></div>
+						</div>
+					</div>
+				</div>
+				<div class="addObject row">
+					<div class="addObjectButton large-4 columns large-centered">
+						<input type="text" id="object-name" />
+						<button onclick="addNewObject();">Add New Object</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/vendor/jquery.js"></script>
+	  	<script src="js/foundation.min.js"></script>
+	  	<script>
+	    	$(document).foundation();
+	  	</script>
+	  	<script src="js/livestyle.js"></script>
+	</body>
+</html>
